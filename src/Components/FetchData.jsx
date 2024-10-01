@@ -8,7 +8,7 @@ const FetchData = () => {
   return (
     <>
      <ul className='list_data_main'>
-        <h1 className='usefetch_heading'>Use Fetch Custom Hook</h1>
+        <h1 className='usefetch_heading'>FOOD (Use Fetch Custom Hook)</h1>
         {data && data.map((e)=>(
             <>
             <li className='list_data'>
