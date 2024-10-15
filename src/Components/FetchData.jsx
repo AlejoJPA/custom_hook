@@ -2,6 +2,8 @@ import React from 'react';
 import UseFetch from './UseFetch';
 
 const FetchData = () => {
+  const [data] = UseFetch('');
+  console.log(data);
   return (
     <>
      <ul className='list_data_main'>
@@ -9,6 +11,6 @@ const FetchData = () => {
      </ul>
     </>
   )
-}
+};
 
-export default FetchData
+export default FetchData;

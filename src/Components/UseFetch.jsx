@@ -7,6 +7,6 @@ const UseFetch = (url) => {
         .then((data)=>setData(data))
     }, [])
     return [data]    
-}
+};
 
-export default UseFetch
+export default UseFetch;
